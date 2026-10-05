@@ -2,16 +2,16 @@
 
 Block everyone who works at a company on X.
 
-Add a company (e.g. `@corgi`), and the extension blocks every account X lists as affiliated with it:
+Add a company (e.g. `@usecorgi`), and the extension blocks every account X lists as affiliated with it:
 employees, executives, and company-run accounts. You can choose to only hide them instead.
 
 ## Usage
 
 1. Install the extension (see below) and open the popup on x.com.
-2. Add the companies you want gone, by handle (`@corgi`) or name (`Corgi`).
+2. Add the companies you want gone, by handle (`@usecorgi`) or name (`Corgi`).
 3. Turn on **Actually block**. With it off, the extension only hides those people's posts, which is a
    good way to check what will be blocked first.
-4. To block a company's whole team at once, open `x.com/<company>/affiliates` (e.g. `x.com/corgi/affiliates`)
+4. To block a company's whole team at once, open `x.com/<company>/affiliates` (e.g. `x.com/usecorgi/affiliates`)
    and scroll to the bottom. Everyone on that list gets blocked.
 
 After that, anyone new from that company gets blocked as soon as they appear while you browse.
