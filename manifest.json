@@ -3,25 +3,52 @@
   "name": "X Affiliate Blocker",
   "version": "0.1.0",
   "description": "Hide or block X accounts that carry the affiliation badge of companies you choose.",
-  "permissions": ["storage"],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "storage"
+  ],
   "action": {
     "default_popup": "popup.html",
-    "default_title": "X Affiliate Blocker"
+    "default_title": "X Affiliate Blocker",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
   },
   "content_scripts": [
     {
-      "matches": ["https://x.com/*", "https://twitter.com/*"],
-      "js": ["inject.js"],
+      "matches": [
+        "https://x.com/*",
+        "https://twitter.com/*"
+      ],
+      "js": [
+        "inject.js"
+      ],
       "run_at": "document_start",
       "world": "MAIN"
     },
     {
-      "matches": ["https://x.com/*", "https://twitter.com/*"],
-      "js": ["content.js"],
+      "matches": [
+        "https://x.com/*",
+        "https://twitter.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
       "run_at": "document_start"
     }
   ],
   "browser_specific_settings": {
-    "gecko": { "id": "x-affiliate-blocker@local", "strict_min_version": "128.0" }
+    "gecko": {
+      "id": "x-affiliate-blocker@local",
+      "strict_min_version": "128.0"
+    }
   }
 }

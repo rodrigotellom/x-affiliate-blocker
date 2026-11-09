@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 280" width="440" height="280">
+  <rect width="440" height="280" fill="#ffffff"/>
+  <circle cx="220" cy="90" r="50" fill="none" stroke="#f4212e" stroke-width="16"/>
+  <line x1="186" y1="124" x2="254" y2="56" stroke="#f4212e" stroke-width="16" stroke-linecap="round"/>
+  <text x="220" y="210" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="34" fill="#0f1419">X Affiliate Blocker</text>
+</svg>

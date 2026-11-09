@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <!-- Block glyph: red ring with a diagonal bar. -->
+  <circle cx="8" cy="8" r="6" fill="none" stroke="#f4212e" stroke-width="2.4"/>
+  <line x1="3.9" y1="12.1" x2="12.1" y2="3.9" stroke="#f4212e" stroke-width="2.4" stroke-linecap="round"/>
+</svg>
